@@ -43,6 +43,10 @@ export default function Basket(props) {
                     <div className="cal-2"><strong>Total Price</strong></div>
                     <div className="cal-1 text-right"><strong>${totalPrice.toFixed(2)}</strong></div>
                 </div>
+                <hr />
+                <div className="row">
+                    <button onClick={() => alert('Implement Checkout')}>Checkout</button>
+                </div>
             </>
         )}
     </aside>);
